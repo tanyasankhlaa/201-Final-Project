@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class HomeController {
     
     //GET is the default method
-    //the /home inside the brackets is the path 'localhost/8080/home'
+    //the /home inside the brackets is the path 'localhost:8080/home'
     @RequestMapping("/home")  
     public ModelAndView welcome() {
         ModelAndView modelAndView = new ModelAndView();
